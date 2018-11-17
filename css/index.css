@@ -1,0 +1,112 @@
+body {
+    background-image: url(../img/marble.jpg);
+}
+  
+#textcolor {
+    color: white;
+}
+
+.applogo {
+    height: 40px;
+    margin-right: 25px;
+}
+
+.bb.title-text {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.bb h2{
+    font-family: 'Black Ops One', cursive;
+    position: absolute;
+    top: 48%;
+    left: 22%;
+    font-size: 36px;
+    color: rgb(56, 59, 63);
+}
+
+.bb h2:hover {
+    transform:skew(45deg, 45deg);
+    transition: all 1s;
+}
+
+.bb.col-lg-4 {
+    height: 138px;
+}
+
+.bb.col-lg-4 img {
+    vertical-align: middle;
+    border-style: none;
+    height: 38px;
+    display: inline-block;
+}
+
+@media (min-width: 992px) {
+    .bb.navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: .5rem;
+      padding-left: 3.5rem;
+    }
+}
+
+.bb.download {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.bb.resize {
+    height: 100%;
+    width: 100%;
+}
+
+.bb.title-center {
+    text-align: center;
+    font-weight: 700;
+}
+
+.bb.fontweight {
+    font-weight: 700;
+}
+
+.row .card-body:hover {
+    background-color: aliceblue;
+}
+
+.bb.progrow {
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+  
+.bb.progbar {
+    width: 100%;
+    margin: 30px;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.progbar.progress {
+    margin-top: 15px;
+}
+
+.progress .progress-bar {
+    background-color: #6c757d;
+}
+
+.bb.dietcontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #6c757d;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translateX(90%);
+    margin-bottom: 15px;
+}
